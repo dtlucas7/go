@@ -2,8 +2,12 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/dtlucas/go/greetings/greetings"
 )
 
 func main() {
-	fmt.Println("Hello World from C:\\Users\\tanne\\go\\src\\github.com\\dtlucas7\\go\\hello-world>")
+	// note the syntax of calling the `quote` package
+	fmt.Println(greetings.Hello())
+	fmt.Println()
 }
