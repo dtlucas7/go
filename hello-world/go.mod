@@ -1,10 +1,7 @@
-module hello-world
+module dtlucas7/hello-world
 
 go 1.20
 
-require rsc.io/quote v1.5.2
+replace dtlucas7/greetings => ../greetings
 
-require (
-	golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c // indirect
-	rsc.io/sampler v1.3.0 // indirect
-)
+require dtlucas7/greetings v0.0.0-00010101000000-000000000000 // indirect

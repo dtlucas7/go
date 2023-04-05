@@ -1,3 +1,3 @@
-module github.com/dtlucas7/go/greetings
+module dtlucas7/greetings
 
 go 1.20
